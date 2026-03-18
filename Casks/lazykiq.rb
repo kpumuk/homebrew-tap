@@ -3,7 +3,7 @@ cask "lazykiq" do
   name "lazykiq"
   desc "A rich terminal UI for Sidekiq."
   homepage "https://github.com/kpumuk/lazykiq"
-  version "0.0.13"
+  version "0.0.14"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "lazykiq" do
   on_macos do
     on_intel do
       url "https://github.com/kpumuk/lazykiq/releases/download/v#{version}/lazykiq-#{version}-darwin-x86_64.tar.gz"
-      sha256 "06a5f7c588b94a630aa4f6e1a63f792f58f2ce06d097f7f3d0856f641453deff"
+      sha256 "fca8fdb14400f3e11bed9134a62ab55c6340dc489707daf31f85979d35f9d409"
     end
     on_arm do
       url "https://github.com/kpumuk/lazykiq/releases/download/v#{version}/lazykiq-#{version}-darwin-arm64.tar.gz"
-      sha256 "7c5e36bae6fff957f993812f7d9dba5a1c6f43a9e0684a0e141abcbde4ab066f"
+      sha256 "d81aa55c5d711c8292c583da679c88bd43f5a1c08fe76187c8f2354f7f127cf7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kpumuk/lazykiq/releases/download/v#{version}/lazykiq-#{version}-linux-x86_64.tar.gz"
-      sha256 "05f8c4dcd72e6c6cc00643c2a3b3d6eb8e3d00e5df86f24ffb4148b097cc3837"
+      sha256 "61cd3fe1c66432b586e67f16e94739e1fb1293b4d01c4e60123d96afa6a0e763"
     end
     on_arm do
       url "https://github.com/kpumuk/lazykiq/releases/download/v#{version}/lazykiq-#{version}-linux-arm64.tar.gz"
-      sha256 "d6a803de1253bb57f0250e0e5e421fc3333e793600d974213a69dda37db4cc22"
+      sha256 "9b0c0ad5cba7d3c95636256f6d40fb7926d748fab4807d8f5a7c6e26ad2d2d55"
     end
   end
 
